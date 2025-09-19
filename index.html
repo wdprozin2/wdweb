@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Entrar no WdServer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      background: #1e1e1e;
+      color: #fff;
+    }
+    a {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: #fff;
+      background: #4CAF50;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: 0.3s;
+      margin-top: 20px;
+    }
+    a:hover {
+      background: #45a049;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      // Tenta abrir o Minecraft automaticamente
+      window.location.href = "minecraft://?addExternalServer=WdServer|wdserver.ignorelist.com:25565";
+    };
+  </script>
+</head>
+<body>
+  <h1>Entre no WdServer</h1>
+  <p>Se o Minecraft não abrir automaticamente, clique no botão abaixo:</p>
+  <a href="minecraft://?addExternalServer=WdServer|wdserver.ignorelist.com:25565">
+    Entrar no WdServer
+  </a>
+</body>
+</html>
